@@ -1,0 +1,24 @@
+/** @format */
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Plaster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,300;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    body {
+        @apply bg-base/dark-bg-1-18 text-white;
+    }
+    .sidebar.active {
+        @apply rounded-lg text-white;
+    }
+    .sidebar.active > span {
+        @apply bg-primary-color-67 rounded-md;
+    }
+}
+
+
