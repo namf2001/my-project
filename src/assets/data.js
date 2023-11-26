@@ -6,7 +6,7 @@ import award05 from "./images/award05.png";
 import Cheesecake from "./images/Cheesecake.png";
 import BBQRibs from "./images/BBQRibs.png";
 import Icream from "./images/icream.png";
-import Pizza from "./images/Pizza.png";
+import Pizza from "./images/pizza.png";
 import Salad from "./images/Salad.png";
 import { TbDiscount2 } from "react-icons/tb";
 import { FiShoppingBag } from "react-icons/fi";
